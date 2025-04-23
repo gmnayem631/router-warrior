@@ -1,0 +1,122 @@
+[
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302461_960_720.png",
+    "name": "Dr. Ayesha Rahman",
+    "education": "MBBS, FCPS (Medicine), MD (Internal Medicine)",
+    "specialty": "Internal Medicine",
+    "experience": "12 years",
+    "registration_number": "BMDC-452781",
+    "availability": ["Monday", "Wednesday", "Saturday"],
+    "consultation_fee": 1200
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302462_960_720.png",
+    "name": "Dr. Imran Hossain",
+    "education": "MBBS, MS (Orthopedics)",
+    "specialty": "Orthopedic Surgeon",
+    "experience": "10 years",
+    "registration_number": "BMDC-334198",
+    "availability": ["Sunday", "Tuesday", "Thursday"],
+    "consultation_fee": 1000
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302463_960_720.png",
+    "name": "Dr. Farhana Karim",
+    "education": "MBBS, FCPS (Gynecology)",
+    "specialty": "Gynecology & Obstetrics",
+    "experience": "9 years",
+    "registration_number": "BMDC-478320",
+    "availability": ["Tuesday", "Thursday", "Friday"],
+    "consultation_fee": 1100
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302464_960_720.png",
+    "name": "Dr. Rafiq Ahmed",
+    "education": "MBBS, MD (Cardiology)",
+    "specialty": "Cardiologist",
+    "experience": "15 years",
+    "registration_number": "BMDC-288390",
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "consultation_fee": 1500
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302465_960_720.png",
+    "name": "Dr. Naznin Jahan",
+    "education": "MBBS, FCPS (Dermatology)",
+    "specialty": "Dermatologist",
+    "experience": "7 years",
+    "registration_number": "BMDC-509312",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "consultation_fee": 900
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302466_960_720.png",
+    "name": "Dr. Tarek Mahmud",
+    "education": "MBBS, MS (ENT)",
+    "specialty": "ENT Specialist",
+    "experience": "8 years",
+    "registration_number": "BMDC-392847",
+    "availability": ["Sunday", "Tuesday", "Friday"],
+    "consultation_fee": 950
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302467_960_720.png",
+    "name": "Dr. Nusrat Haque",
+    "education": "MBBS, MD (Pediatrics)",
+    "specialty": "Pediatrician",
+    "experience": "11 years",
+    "registration_number": "BMDC-433218",
+    "availability": ["Monday", "Thursday", "Saturday"],
+    "consultation_fee": 1050
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302468_960_720.png",
+    "name": "Dr. Kamrul Islam",
+    "education": "MBBS, MS (Urology)",
+    "specialty": "Urologist",
+    "experience": "13 years",
+    "registration_number": "BMDC-390451",
+    "availability": ["Tuesday", "Wednesday", "Friday"],
+    "consultation_fee": 1300
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302469_960_720.png",
+    "name": "Dr. Shaila Binte Karim",
+    "education": "MBBS, FCPS (Psychiatry)",
+    "specialty": "Psychiatrist",
+    "experience": "6 years",
+    "registration_number": "BMDC-501273",
+    "availability": ["Sunday", "Wednesday", "Saturday"],
+    "consultation_fee": 1000
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302470_960_720.png",
+    "name": "Dr. Mahfuz Alam",
+    "education": "MBBS, MS (Neurosurgery)",
+    "specialty": "Neurosurgeon",
+    "experience": "14 years",
+    "registration_number": "BMDC-319274",
+    "availability": ["Monday", "Thursday", "Friday"],
+    "consultation_fee": 1600
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302471_960_720.png",
+    "name": "Dr. Fahmida Nahar",
+    "education": "MBBS, MD (Endocrinology)",
+    "specialty": "Endocrinologist",
+    "experience": "10 years",
+    "registration_number": "BMDC-487201",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "consultation_fee": 1200
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302472_960_720.png",
+    "name": "Dr. Arif Chowdhury",
+    "education": "MBBS, FCPS (Radiology & Imaging)",
+    "specialty": "Radiologist",
+    "experience": "9 years",
+    "registration_number": "BMDC-423895",
+    "availability": ["Sunday", "Wednesday", "Friday"],
+    "consultation_fee": 1100
+  }
+]
