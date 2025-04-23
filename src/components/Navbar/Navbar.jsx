@@ -31,7 +31,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="bg-[#EFEFEF] shadow-sm">
+    <div className="bg-[#EFEFEF]">
       <div className="navbar px-[160px] py-[20px]">
         <div className="navbar-start">
           <div className="dropdown">
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-[rgba(15,15,15,0.7)] font-medium">
+          <ul className="menu menu-horizontal px-1 text-[rgba(15,15,15,0.7)] font-medium gap-10 text-[18px]">
             {linksMain}
           </ul>
         </div>

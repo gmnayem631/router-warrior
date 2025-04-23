@@ -1,2 +1,17 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+html {
+  background-color: #efefef;
+}
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.banner {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0),
+    rgb(255, 255, 255) 100%
+  );
+}
