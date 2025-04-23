@@ -27,9 +27,9 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <div className="image-container flex max-w-[430px] mt-6 gap-6">
-        <img src={bannerImg} alt="" />
-        <img src={bannerImg} alt="" />
+      <div className="image-container flex flex-col sm:flex-row sm:w-full md:flex-row  mt-6 gap-6">
+        <img src={bannerImg} alt="" className="sm:w-1/2 w-full" />
+        <img src={bannerImg} alt="" className="sm:w-1/2 w-full" />
       </div>
     </div>
   );
