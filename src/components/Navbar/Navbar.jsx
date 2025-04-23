@@ -23,19 +23,10 @@ const Navbar = () => {
   //   main menu options
   const linksMain = (
     <>
-      <li>
-        <a>Home</a>
-      </li>
-
-      <li>
-        <a>My-Bookings</a>
-      </li>
-      <li>
-        <a>Blogs</a>
-      </li>
-      <li>
-        <a>Contact Us</a>
-      </li>
+      <li>Home</li>
+      <li>My-Bookings</li>
+      <li>Blogs</li>
+      <li>Contact Us</li>
     </>
   );
 
