@@ -1,122 +1,146 @@
 [
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302461_960_720.png",
-    "name": "Dr. Ayesha Rahman",
+    "id": "doc001",
+    "image": "https://i.ibb.co.com/FqdY79mD/doctor-3247901-1280.png",
+    "name": "Dr. Anisur Rahman",
     "education": "MBBS, FCPS (Medicine), MD (Internal Medicine)",
     "specialty": "Internal Medicine",
     "experience": "12 years",
-    "registration_number": "BMDC-452781",
+    "registrationNumber": "BMDC-452781",
     "availability": ["Monday", "Wednesday", "Saturday"],
-    "consultation_fee": 1200
+    "consultationFee": 1200,
+    "isAvailable": true
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302462_960_720.png",
+    "id": "doc002",
+    "image": "https://i.ibb.co.com/fVGBRw2c/doctor-2025725-1280.png",
     "name": "Dr. Imran Hossain",
     "education": "MBBS, MS (Orthopedics)",
     "specialty": "Orthopedic Surgeon",
     "experience": "10 years",
-    "registration_number": "BMDC-334198",
+    "registrationNumber": "BMDC-334198",
     "availability": ["Sunday", "Tuesday", "Thursday"],
-    "consultation_fee": 1000
+    "consultationFee": 1000,
+    "isAvailable": false
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302463_960_720.png",
-    "name": "Dr. Farhana Karim",
+    "id": "doc003",
+    "image": "https://i.ibb.co.com/SjxrKs0/ai-generated-8772399-1280.jpg",
+    "name": "Dr. Farid Karim",
     "education": "MBBS, FCPS (Gynecology)",
     "specialty": "Gynecology & Obstetrics",
     "experience": "9 years",
-    "registration_number": "BMDC-478320",
+    "registrationNumber": "BMDC-478320",
     "availability": ["Tuesday", "Thursday", "Friday"],
-    "consultation_fee": 1100
+    "consultationFee": 1100,
+    "isAvailable": true
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302464_960_720.png",
+    "id": "doc004",
+    "image": "https://i.ibb.co.com/RT7mrgjr/man-6534856-1280.jpg",
     "name": "Dr. Rafiq Ahmed",
     "education": "MBBS, MD (Cardiology)",
     "specialty": "Cardiologist",
     "experience": "15 years",
-    "registration_number": "BMDC-288390",
+    "registrationNumber": "BMDC-288390",
     "availability": ["Monday", "Wednesday", "Friday"],
-    "consultation_fee": 1500
+    "consultationFee": 1500,
+    "isAvailable": true
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302465_960_720.png",
-    "name": "Dr. Naznin Jahan",
+    "id": "doc005",
+    "image": "https://i.ibb.co.com/DHC5WZ3z/african-2027619-1280.png",
+    "name": "Dr. Nazmul Huda",
     "education": "MBBS, FCPS (Dermatology)",
     "specialty": "Dermatologist",
     "experience": "7 years",
-    "registration_number": "BMDC-509312",
+    "registrationNumber": "BMDC-509312",
     "availability": ["Tuesday", "Thursday", "Saturday"],
-    "consultation_fee": 900
+    "consultationFee": 900,
+    "isAvailable": false
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302466_960_720.png",
+    "id": "doc006",
+    "image": "https://i.ibb.co.com/whj9tNdB/doctor-2027768-1280.png",
     "name": "Dr. Tarek Mahmud",
     "education": "MBBS, MS (ENT)",
     "specialty": "ENT Specialist",
     "experience": "8 years",
-    "registration_number": "BMDC-392847",
+    "registrationNumber": "BMDC-392847",
     "availability": ["Sunday", "Tuesday", "Friday"],
-    "consultation_fee": 950
+    "consultationFee": 950,
+    "isAvailable": true
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302467_960_720.png",
-    "name": "Dr. Nusrat Haque",
+    "id": "doc007",
+    "image": "https://i.ibb.co.com/CKScvzvk/doctor-7660631-1280.png",
+    "name": "Dr. Nurul Haque",
     "education": "MBBS, MD (Pediatrics)",
     "specialty": "Pediatrician",
     "experience": "11 years",
-    "registration_number": "BMDC-433218",
+    "registrationNumber": "BMDC-433218",
     "availability": ["Monday", "Thursday", "Saturday"],
-    "consultation_fee": 1050
+    "consultationFee": 1050,
+    "isAvailable": false
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302468_960_720.png",
+    "id": "doc008",
+    "image": "https://i.ibb.co.com/396pkNbL/doctor-6633763-1280.png",
     "name": "Dr. Kamrul Islam",
     "education": "MBBS, MS (Urology)",
     "specialty": "Urologist",
     "experience": "13 years",
-    "registration_number": "BMDC-390451",
+    "registrationNumber": "BMDC-390451",
     "availability": ["Tuesday", "Wednesday", "Friday"],
-    "consultation_fee": 1300
+    "consultationFee": 1300,
+    "isAvailable": true
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302469_960_720.png",
-    "name": "Dr. Shaila Binte Karim",
+    "id": "doc009",
+    "image": "https://i.ibb.co.com/7x2MGmHZ/doctor-2748707-1280.png",
+    "name": "Dr. Shamim Hossain",
     "education": "MBBS, FCPS (Psychiatry)",
     "specialty": "Psychiatrist",
     "experience": "6 years",
-    "registration_number": "BMDC-501273",
+    "registrationNumber": "BMDC-501273",
     "availability": ["Sunday", "Wednesday", "Saturday"],
-    "consultation_fee": 1000
+    "consultationFee": 1000,
+    "isAvailable": false
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302470_960_720.png",
-    "name": "Dr. Mahfuz Alam",
+    "id": "doc010",
+    "image": "https://i.ibb.co.com/XkpRVFDp/illustration-3072765-1280.png",
+    "name": "Dr. Fahmida Nahar",
     "education": "MBBS, MS (Neurosurgery)",
     "specialty": "Neurosurgeon",
     "experience": "14 years",
-    "registration_number": "BMDC-319274",
+    "registrationNumber": "BMDC-319274",
     "availability": ["Monday", "Thursday", "Friday"],
-    "consultation_fee": 1600
+    "consultationFee": 1600,
+    "isAvailable": true
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302471_960_720.png",
-    "name": "Dr. Fahmida Nahar",
+    "id": "doc011",
+    "image": "https://i.ibb.co.com/GfqsCMNN/doctor-2027615-1280.png",
+    "name": "Dr. Mahfuz Alam",
     "education": "MBBS, MD (Endocrinology)",
     "specialty": "Endocrinologist",
     "experience": "10 years",
-    "registration_number": "BMDC-487201",
+    "registrationNumber": "BMDC-487201",
     "availability": ["Tuesday", "Thursday", "Saturday"],
-    "consultation_fee": 1200
+    "consultationFee": 1200,
+    "isAvailable": false
   },
   {
-    "image": "https://cdn.pixabay.com/photo/2016/04/01/09/10/doctor-1302472_960_720.png",
+    "id": "doc012",
+    "image": "https://i.ibb.co.com/Y4S8JRTf/doctor-5216835-1280.png",
     "name": "Dr. Arif Chowdhury",
     "education": "MBBS, FCPS (Radiology & Imaging)",
     "specialty": "Radiologist",
     "experience": "9 years",
-    "registration_number": "BMDC-423895",
+    "registrationNumber": "BMDC-423895",
     "availability": ["Sunday", "Wednesday", "Friday"],
-    "consultation_fee": 1100
+    "consultationFee": 1100,
+    "isAvailable": true
   }
 ]
