@@ -1,6 +1,6 @@
 [
   {
-    "id": "doc001",
+    "id": "1",
     "image": "https://i.ibb.co.com/FqdY79mD/doctor-3247901-1280.png",
     "name": "Dr. Anisur Rahman",
     "education": "MBBS, FCPS (Medicine), MD (Internal Medicine)",
@@ -10,10 +10,11 @@
     "availability": ["Monday", "Wednesday", "Saturday"],
     "consultationFee": 1200,
     "isAvailable": true,
-    "worksAt": "Green Life Hospital, Dhaka"
+    "worksAt": "Green Life Hospital, Dhaka",
+    "details": "Dr. Anisur Rahman is a seasoned internal medicine specialist known for his precise diagnostic abilities and compassionate approach to chronic disease management."
   },
   {
-    "id": "doc002",
+    "id": "2",
     "image": "https://i.ibb.co.com/V0PgMP12/doctor-2008480-1280.png",
     "name": "Dr. Imran Hossain",
     "education": "MBBS, MS (Orthopedics)",
@@ -23,10 +24,11 @@
     "availability": ["Sunday", "Tuesday", "Thursday"],
     "consultationFee": 1000,
     "isAvailable": false,
-    "worksAt": "Square Hospitals Ltd."
+    "worksAt": "Square Hospitals Ltd.",
+    "details": "Dr. Imran Hossain specializes in orthopedic surgery, treating musculoskeletal trauma and sports injuries with a focus on minimally invasive procedures."
   },
   {
-    "id": "doc003",
+    "id": "3",
     "image": "https://i.ibb.co.com/SjxrKs0/ai-generated-8772399-1280.jpg",
     "name": "Dr. Farid Karim",
     "education": "MBBS, FCPS (Gynecology)",
@@ -36,10 +38,11 @@
     "availability": ["Tuesday", "Thursday", "Friday"],
     "consultationFee": 1100,
     "isAvailable": true,
-    "worksAt": "Ibrahim Cardiac Hospital"
+    "worksAt": "Ibrahim Cardiac Hospital",
+    "details": "Dr. Farid Karim is known for his gentle approach and dedication in women's health, particularly in high-risk pregnancies and reproductive health."
   },
   {
-    "id": "doc004",
+    "id": "4",
     "image": "https://i.ibb.co.com/RT7mrgjr/man-6534856-1280.jpg",
     "name": "Dr. Rafiq Ahmed",
     "education": "MBBS, MD (Cardiology)",
@@ -49,10 +52,11 @@
     "availability": ["Monday", "Wednesday", "Friday"],
     "consultationFee": 1500,
     "isAvailable": true,
-    "worksAt": "National Heart Foundation Hospital"
+    "worksAt": "National Heart Foundation Hospital",
+    "details": "Dr. Rafiq Ahmed is a distinguished cardiologist who combines cutting-edge cardiac care with personalized treatment plans to manage heart disease effectively."
   },
   {
-    "id": "doc005",
+    "id": "5",
     "image": "https://i.ibb.co.com/6ccNqNPL/doctor-5569298-1280.png",
     "name": "Dr. Naznin Jahan",
     "education": "MBBS, FCPS (Dermatology)",
@@ -62,10 +66,11 @@
     "availability": ["Tuesday", "Thursday", "Saturday"],
     "consultationFee": 900,
     "isAvailable": false,
-    "worksAt": "Popular Diagnostic Center, Dhanmondi"
+    "worksAt": "Popular Diagnostic Center, Dhanmondi",
+    "details": "Dr. Naznin Jahan is a skilled dermatologist specializing in acne, eczema, and cosmetic dermatology, offering both medical and aesthetic solutions."
   },
   {
-    "id": "doc006",
+    "id": "6",
     "image": "https://i.ibb.co.com/whj9tNdB/doctor-2027768-1280.png",
     "name": "Dr. Tarek Mahmud",
     "education": "MBBS, MS (ENT)",
@@ -75,10 +80,11 @@
     "availability": ["Sunday", "Tuesday", "Friday"],
     "consultationFee": 950,
     "isAvailable": true,
-    "worksAt": "United Hospital Limited"
+    "worksAt": "United Hospital Limited",
+    "details": "Dr. Tarek Mahmud offers comprehensive ENT care, including advanced sinus surgeries and hearing restoration, with a focus on patient education."
   },
   {
-    "id": "doc007",
+    "id": "7",
     "image": "https://i.ibb.co.com/CKScvzvk/doctor-7660631-1280.png",
     "name": "Dr. Nurul Haque",
     "education": "MBBS, MD (Pediatrics)",
@@ -88,10 +94,11 @@
     "availability": ["Monday", "Thursday", "Saturday"],
     "consultationFee": 1050,
     "isAvailable": false,
-    "worksAt": "Shishu Hospital"
+    "worksAt": "Shishu Hospital",
+    "details": "Dr. Nurul Haque is a pediatrician who combines clinical excellence with a warm, reassuring approach to children’s health and development."
   },
   {
-    "id": "doc008",
+    "id": "8",
     "image": "https://i.ibb.co.com/396pkNbL/doctor-6633763-1280.png",
     "name": "Dr. Kamrul Islam",
     "education": "MBBS, MS (Urology)",
@@ -101,12 +108,13 @@
     "availability": ["Tuesday", "Wednesday", "Friday"],
     "consultationFee": 1300,
     "isAvailable": true,
-    "worksAt": "Labaid Specialized Hospital"
+    "worksAt": "Labaid Specialized Hospital",
+    "details": "Dr. Kamrul Islam is known for his expertise in kidney and urinary disorders, with a focus on laparoscopic and laser urological procedures."
   },
   {
-    "id": "doc009",
+    "id": "9",
     "image": "https://i.ibb.co.com/7x2MGmHZ/doctor-2748707-1280.png",
-    "name": "Dr. Shamim Hossain",
+    "name": "Dr. Shafique Hossain",
     "education": "MBBS, FCPS (Psychiatry)",
     "specialty": "Psychiatrist",
     "experience": "6 years",
@@ -114,10 +122,11 @@
     "availability": ["Sunday", "Wednesday", "Saturday"],
     "consultationFee": 1000,
     "isAvailable": false,
-    "worksAt": "Mental Health Centre, Dhaka"
+    "worksAt": "Mental Health Centre, Dhaka",
+    "details": "Dr. Shafiue Hossain provides empathetic care for mental health issues, specializing in mood disorders and psychotherapy for adults and adolescents."
   },
   {
-    "id": "doc010",
+    "id": "10",
     "image": "https://i.ibb.co.com/XkpRVFDp/illustration-3072765-1280.png",
     "name": "Dr. Fahmida Nahar",
     "education": "MBBS, MS (Neurosurgery)",
@@ -127,10 +136,11 @@
     "availability": ["Monday", "Thursday", "Friday"],
     "consultationFee": 1600,
     "isAvailable": true,
-    "worksAt": "Bangabandhu Sheikh Mujib Medical University (BSMMU)"
+    "worksAt": "Bangabandhu Sheikh Mujib Medical University (BSMMU)",
+    "details": "Dr. Mahfuzah Alam is a highly skilled neurosurgeon, renowned for her work in spinal and brain surgery, combining precision with innovative techniques."
   },
   {
-    "id": "doc011",
+    "id": "11",
     "image": "https://i.ibb.co.com/x8hshwX6/female-6813278-1280.png",
     "name": "Dr. Farzana Akter",
     "education": "MBBS, MD (Endocrinology)",
@@ -140,10 +150,11 @@
     "availability": ["Tuesday", "Thursday", "Saturday"],
     "consultationFee": 1200,
     "isAvailable": false,
-    "worksAt": "BRB Hospitals Ltd."
+    "worksAt": "BRB Hospitals Ltd.",
+    "details": "Dr. Farzana Akter offers expert care in diabetes and hormone disorders, emphasizing lifestyle management and patient empowerment."
   },
   {
-    "id": "doc012",
+    "id": "12",
     "image": "https://i.ibb.co.com/Y4S8JRTf/doctor-5216835-1280.png",
     "name": "Dr. Arif Chowdhury",
     "education": "MBBS, FCPS (Radiology & Imaging)",
@@ -153,6 +164,7 @@
     "availability": ["Sunday", "Wednesday", "Friday"],
     "consultationFee": 1100,
     "isAvailable": true,
-    "worksAt": "Delta Medical College & Hospital"
+    "worksAt": "Delta Medical College & Hospital",
+    "details": "Dr. Arif Chowdhury is a dedicated radiologist who utilizes advanced imaging technologies for accurate and timely diagnoses."
   }
 ]
