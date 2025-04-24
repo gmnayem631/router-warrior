@@ -1,9 +1,11 @@
 import React from "react";
-import { useLoaderData, useParams } from "react-router";
+import { Link, useLoaderData, useNavigate, useParams } from "react-router";
 import { FaRegRegistered } from "react-icons/fa6";
 import { IoInformationCircle } from "react-icons/io5";
+import { addToStoredDB } from "../Utility/addToDB";
 
 const DoctorDetails = () => {
+  const navigate = useNavigate();
   const { id } = useParams();
   // const docId = parseInt(id);
   const data = useLoaderData();
@@ -22,6 +24,11 @@ const DoctorDetails = () => {
     isAvailable,
   } = singleDoc;
 
+  const handleAppointment = () => {
+    addToStoredDB(id);
+    navigate("/bookings");
+  };
+
   return (
     <div>
       <div className="w-4/5 mx-auto bg-white my-8 py-10 sm:py-14 lg:py-20 px-16 sm:px-28 lg:px-40 text-center rounded-3xl">
@@ -32,7 +39,7 @@ const DoctorDetails = () => {
       </div>
 
       <div className="w-4/5 mx-auto bg-white my-8 rounded-3xl p-8 flex flex-col md:flex-row gap-5">
-        <img className="max-w-80" src={image} alt={name} />
+        <img className="max-w-80 rounded-2xl" src={image} alt={name} />
         <div className="doc-details">
           <h2 className="text-[#141414] text-xl sm:text-2xl md:text-3xl font-extrabold">
             {name}
@@ -93,9 +100,14 @@ const DoctorDetails = () => {
             for today only. We appreciate your understanding and cooperation.
           </p>
         </div>
-        <button className="bg-[#176AE5] rounded-full py-3 px-5 w-full mt-5 text-white font-bold text-xl cursor-pointer">
+        {/* <Link to={"/bookings"}> */}
+        <button
+          onClick={() => handleAppointment(id)}
+          className="bg-[#176AE5] rounded-full py-3 px-5 w-full mt-5 text-white font-bold text-xl cursor-pointer"
+        >
           Book Appointment Now
         </button>
+        {/* </Link> */}
       </div>
     </div>
   );
