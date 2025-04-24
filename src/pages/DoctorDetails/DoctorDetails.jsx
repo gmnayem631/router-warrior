@@ -3,6 +3,7 @@ import { Link, useLoaderData, useNavigate, useParams } from "react-router";
 import { FaRegRegistered } from "react-icons/fa6";
 import { IoInformationCircle } from "react-icons/io5";
 import { addToStoredDB } from "../Utility/addToDB";
+import { toast } from "react-toastify";
 
 const DoctorDetails = () => {
   const navigate = useNavigate();
@@ -26,7 +27,10 @@ const DoctorDetails = () => {
 
   const handleAppointment = () => {
     addToStoredDB(id);
-    navigate("/bookings");
+    toast.success("You Booked an Appointment");
+    setTimeout(() => {
+      navigate("/bookings");
+    }, 1000);
   };
 
   return (
@@ -102,7 +106,7 @@ const DoctorDetails = () => {
         </div>
         {/* <Link to={"/bookings"}> */}
         <button
-          onClick={() => handleAppointment(id)}
+          onClick={handleAppointment}
           className="bg-[#176AE5] rounded-full py-3 px-5 w-full mt-5 text-white font-bold text-xl cursor-pointer"
         >
           Book Appointment Now

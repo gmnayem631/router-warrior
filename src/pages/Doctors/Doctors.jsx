@@ -1,8 +1,8 @@
-import React, { Suspense, useState } from "react";
+import React, { Suspense } from "react";
 import Doctor from "../Doctor/Doctor";
 
 const Doctors = ({ data }) => {
-  const [doctors, setDoctors] = useState([]);
+  // const [doctors, setDoctors] = useState([]);
 
   return (
     <div className="w-4/5 mx-auto py-20">

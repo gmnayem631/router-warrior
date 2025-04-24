@@ -30,8 +30,12 @@ const Navbar = () => {
       <Link to={"/bookings"}>
         <li>My-Bookings</li>
       </Link>
-      <li>Blogs</li>
-      <li>Contact Us</li>
+      <Link to={"/blogs"}>
+        <li>Blogs</li>
+      </Link>
+      <Link to={"/contacts"}>
+        <li>Contact Us</li>
+      </Link>
     </>
   );
 

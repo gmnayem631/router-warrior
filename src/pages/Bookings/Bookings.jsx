@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import DefaultBookingMsg from "../DefaultBookingMsg/DefaultBookingMsg";
 import { useLoaderData } from "react-router";
+import { toast } from "react-toastify";
 
 const Bookings = () => {
   const bookedDocs = useLoaderData();
+  const [bookedDoctors, setBookedDoctors] = useState(bookedDocs);
+
+  const handleCancel = (id) => {
+    const remainingDocs = bookedDoctors.filter((oneDoc) => oneDoc.id !== id);
+    setBookedDoctors(remainingDocs);
+
+    const newIds = remainingDocs.map((doc) => doc.id);
+    localStorage.setItem("appointmentList", JSON.stringify(newIds));
+
+    toast.error("Appointment canceled successfully.");
+  };
+
   // const { name, education, specialty } = bookedDocs;
   if (bookedDocs.length === 0) return <DefaultBookingMsg />;
   return (
@@ -17,7 +30,7 @@ const Bookings = () => {
           </p>
         </div>
         <div className="mt-5 grid gap-5">
-          {bookedDocs.map((doc) => (
+          {bookedDoctors.map((doc) => (
             <div className="bg-white rounded-3xl p-8 grid gap-5">
               <div className="flex justify-between">
                 <div className="flex flex-col">
@@ -31,7 +44,10 @@ const Bookings = () => {
                 </p>
               </div>
               <div className="border border-dashed border-gray-300"></div>
-              <button className="btn btn-outline btn-error rounded-full">
+              <button
+                onClick={() => handleCancel(doc.id)}
+                className="btn btn-outline btn-error rounded-full"
+              >
                 Cancel Appointment
               </button>
             </div>

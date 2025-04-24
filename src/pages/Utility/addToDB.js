@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const getStoredDoc = () => {
   const storeDocStr = localStorage.getItem("appointmentList");
   if (storeDocStr) {
@@ -11,7 +13,7 @@ const getStoredDoc = () => {
 const addToStoredDB = (id) => {
   const storedDocData = getStoredDoc();
   if (storedDocData.includes(id)) {
-    alert("id exists");
+    toast.error("Appointment Exists");
   } else {
     storedDocData.push(id);
     const data = JSON.stringify(storedDocData);

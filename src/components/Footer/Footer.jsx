@@ -4,6 +4,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -15,10 +16,18 @@ const Footer = () => {
         </span>
       </div>
       <nav className="grid grid-flow-col gap-4">
-        <a className="link link-hover">Home</a>
-        <a className="link link-hover">My-Bookings</a>
-        <a className="link link-hover">Blogs</a>
-        <a className="link link-hover">Contact Us</a>
+        <Link to={"/"}>
+          <a className="link link-hover">Home</a>
+        </Link>
+        <Link to={"/bookings"}>
+          <a className="link link-hover">My-Bookings</a>
+        </Link>
+        <Link to={"/blogs"}>
+          <a className="link link-hover">Blogs</a>
+        </Link>
+        <Link to={"/contacts"}>
+          <a className="link link-hover">Contact Us</a>
+        </Link>
       </nav>
       <nav>
         <div className="grid grid-flow-col gap-4">
