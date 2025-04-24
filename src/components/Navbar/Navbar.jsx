@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.png";
+import { Link } from "react-router";
 
 const Navbar = () => {
   // responsive submenu options
@@ -23,8 +24,12 @@ const Navbar = () => {
   //   main menu options
   const linksMain = (
     <>
-      <li>Home</li>
-      <li>My-Bookings</li>
+      <Link to={"/"}>
+        <li>Home</li>
+      </Link>
+      <Link to={"/bookings"}>
+        <li>My-Bookings</li>
+      </Link>
       <li>Blogs</li>
       <li>Contact Us</li>
     </>

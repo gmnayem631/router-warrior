@@ -9,7 +9,8 @@
     "registrationNumber": "BMDC-452781",
     "availability": ["Monday", "Wednesday", "Saturday"],
     "consultationFee": 1200,
-    "isAvailable": true
+    "isAvailable": true,
+    "worksAt": "Green Life Hospital, Dhaka"
   },
   {
     "id": "doc002",
@@ -21,7 +22,8 @@
     "registrationNumber": "BMDC-334198",
     "availability": ["Sunday", "Tuesday", "Thursday"],
     "consultationFee": 1000,
-    "isAvailable": false
+    "isAvailable": false,
+    "worksAt": "Square Hospitals Ltd."
   },
   {
     "id": "doc003",
@@ -33,7 +35,8 @@
     "registrationNumber": "BMDC-478320",
     "availability": ["Tuesday", "Thursday", "Friday"],
     "consultationFee": 1100,
-    "isAvailable": true
+    "isAvailable": true,
+    "worksAt": "Ibrahim Cardiac Hospital"
   },
   {
     "id": "doc004",
@@ -45,7 +48,8 @@
     "registrationNumber": "BMDC-288390",
     "availability": ["Monday", "Wednesday", "Friday"],
     "consultationFee": 1500,
-    "isAvailable": true
+    "isAvailable": true,
+    "worksAt": "National Heart Foundation Hospital"
   },
   {
     "id": "doc005",
@@ -57,7 +61,8 @@
     "registrationNumber": "BMDC-509312",
     "availability": ["Tuesday", "Thursday", "Saturday"],
     "consultationFee": 900,
-    "isAvailable": false
+    "isAvailable": false,
+    "worksAt": "Popular Diagnostic Center, Dhanmondi"
   },
   {
     "id": "doc006",
@@ -69,7 +74,8 @@
     "registrationNumber": "BMDC-392847",
     "availability": ["Sunday", "Tuesday", "Friday"],
     "consultationFee": 950,
-    "isAvailable": true
+    "isAvailable": true,
+    "worksAt": "United Hospital Limited"
   },
   {
     "id": "doc007",
@@ -81,7 +87,8 @@
     "registrationNumber": "BMDC-433218",
     "availability": ["Monday", "Thursday", "Saturday"],
     "consultationFee": 1050,
-    "isAvailable": false
+    "isAvailable": false,
+    "worksAt": "Shishu Hospital"
   },
   {
     "id": "doc008",
@@ -93,7 +100,8 @@
     "registrationNumber": "BMDC-390451",
     "availability": ["Tuesday", "Wednesday", "Friday"],
     "consultationFee": 1300,
-    "isAvailable": true
+    "isAvailable": true,
+    "worksAt": "Labaid Specialized Hospital"
   },
   {
     "id": "doc009",
@@ -105,7 +113,8 @@
     "registrationNumber": "BMDC-501273",
     "availability": ["Sunday", "Wednesday", "Saturday"],
     "consultationFee": 1000,
-    "isAvailable": false
+    "isAvailable": false,
+    "worksAt": "Mental Health Centre, Dhaka"
   },
   {
     "id": "doc010",
@@ -117,7 +126,8 @@
     "registrationNumber": "BMDC-319274",
     "availability": ["Monday", "Thursday", "Friday"],
     "consultationFee": 1600,
-    "isAvailable": true
+    "isAvailable": true,
+    "worksAt": "Bangabandhu Sheikh Mujib Medical University (BSMMU)"
   },
   {
     "id": "doc011",
@@ -129,7 +139,8 @@
     "registrationNumber": "BMDC-487201",
     "availability": ["Tuesday", "Thursday", "Saturday"],
     "consultationFee": 1200,
-    "isAvailable": false
+    "isAvailable": false,
+    "worksAt": "BRB Hospitals Ltd."
   },
   {
     "id": "doc012",
@@ -141,6 +152,7 @@
     "registrationNumber": "BMDC-423895",
     "availability": ["Sunday", "Wednesday", "Friday"],
     "consultationFee": 1100,
-    "isAvailable": true
+    "isAvailable": true,
+    "worksAt": "Delta Medical College & Hospital"
   }
 ]
