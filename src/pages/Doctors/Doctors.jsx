@@ -22,6 +22,11 @@ const Doctors = ({ data }) => {
           ))}
         </div>
       </Suspense>
+      <div className="text-center">
+        <button className="bg-[#176AE5] py-4 px-8 rounded-[99px] text-white text-xl font-bold cursor-pointer">
+          View All Doctors
+        </button>
+      </div>
     </div>
   );
 };
