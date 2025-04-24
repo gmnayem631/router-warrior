@@ -30,7 +30,9 @@ const Doctor = ({ singleDoc }) => {
           <div className="border border-[#176ae533] bg-[#176ae51a] text-[#176AE5] text-[14px] rounded-[99px] py-2 px-3 font-medium">{`${experience} Experience`}</div>
         </dv>
         <h2 className="card-title font-bold text-[#0F0F0F]">{name}</h2>
-        <p>{education}</p>
+        <p>
+          {education} - {specialty}
+        </p>
         <div className="divider"></div>
         <div className="flex items-center gap-4 text-[#0F0F0FB3]">
           <FaRegRegistered className="h-10" />
