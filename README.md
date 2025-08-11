@@ -1,12 +1,42 @@
-# React + Vite
+# Router-Warrior
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React Router project showcasing specialist doctors with detailed profiles and appointment booking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## Expanding the ESLint configuration
+**Router-Warrior** is a frontend-only React application that allows users to explore a list of specialist doctors. Each doctor has a dedicated details page displaying their available days, consultation fees, and educational qualifications. Users can easily book appointments on the details page, with instant confirmation shown via a toast notification.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- **Specialist Doctors Listing:** Browse doctors with substantial experience in their fields.  
+- **Doctor Details Page:** View available days, fees, and education qualifications for each doctor.  
+- **Appointment Booking:** Book an appointment directly from the doctor's detail page.  
+- **Instant Confirmation:** Receive a toast notification confirming your booking.  
+- **Client-Side Routing:** Smooth navigation using React Router without a backend.  
+
+---
+
+## Live Demo
+
+Explore the live app here: [Router-Warrior](http://hellish-agreement.surge.sh/)
+
+---
+
+## Technologies Used
+
+- React  
+- React Router DOM  
+- React Toastify (for toast notifications)  
+- CSS  
+
+---
+
+## How to Run Locally
+
+1. Clone the repository:  
+   ```bash
+   git clone <your-repository-url>
